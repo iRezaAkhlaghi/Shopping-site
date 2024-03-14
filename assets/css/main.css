@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#toasts {
+    @apply absolute right-2 top-2
+}
+
+.backToast  {
+    @apply font-bold
+      
+    }
+   
+    .backToast .bg-gray-200 {
+
+     @apply !bg-purple-500 ;
+
+   }
+
+   
+   /* .backToast .flex-shrink-0 {
+    @apply hidden;
+  } */
+
+   
+ 
+   .backToast .items-start {
+     @apply gap-2;
+   }
+   .backToast .items-start div {
+     @apply !mx-0;
+   }
+   .z-40 {
+     @apply z-[10001];
+   }
+   
+   .max-w-sm {
+     max-width: 28rem !important;
+   }
+   
